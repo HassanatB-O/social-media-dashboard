@@ -157,7 +157,8 @@ h2{
 @media screen and (max-width: 450px){
     #overview-section, #follower-section{
         grid-template-columns: 1fr;
-        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
         margin: auto;
         left: 0;
         right: 0;
@@ -165,7 +166,8 @@ h2{
     nav{
         flex-direction: column;
         padding: 20px;
-        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
         margin-top: 15px;
     }
     #nav-text{
